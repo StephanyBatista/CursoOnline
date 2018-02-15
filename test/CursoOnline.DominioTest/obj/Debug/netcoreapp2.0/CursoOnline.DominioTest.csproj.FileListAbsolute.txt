@@ -12,3 +12,5 @@ C:\source\CursoOnline\test\CursoOnline.DominioTest\obj\Debug\netcoreapp2.0\Curso
 C:\source\CursoOnline\test\CursoOnline.DominioTest\obj\Debug\netcoreapp2.0\CursoOnline.DominioTest.AssemblyInfo.cs
 C:\source\CursoOnline\test\CursoOnline.DominioTest\obj\Debug\netcoreapp2.0\CursoOnline.DominioTest.dll
 C:\source\CursoOnline\test\CursoOnline.DominioTest\obj\Debug\netcoreapp2.0\CursoOnline.DominioTest.pdb
+C:\source\CursoOnline\test\CursoOnline.DominioTest\bin\Debug\netcoreapp2.0\CursoOnline.Dominio.dll
+C:\source\CursoOnline\test\CursoOnline.DominioTest\bin\Debug\netcoreapp2.0\CursoOnline.Dominio.pdb

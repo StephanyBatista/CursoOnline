@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v2.0": {
       "CursoOnline.DominioTest/1.0.0": {
         "dependencies": {
+          "CursoOnline.Dominio": "1.0.0",
           "ExpectedObjects": "2.3.4",
           "Microsoft.NET.Test.Sdk": "15.5.0",
           "xunit": "2.3.1",
@@ -1040,6 +1041,11 @@
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "15.5.0"
         }
+      },
+      "CursoOnline.Dominio/1.0.0": {
+        "runtime": {
+          "CursoOnline.Dominio.dll": {}
+        }
       }
     }
   },
@@ -1594,6 +1600,11 @@
       "sha512": "sha512-B+RtW4dyBquEyjSAFyV5RMifaOZOirDwlzcIq2DNVGo1gzJS8PAPu5S+2y1n6ZgEMWbpqJf9TkZ55+X6FLdy3A==",
       "path": "xunit.runner.visualstudio/2.3.1",
       "hashPath": "xunit.runner.visualstudio.2.3.1.nupkg.sha512"
+    },
+    "CursoOnline.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

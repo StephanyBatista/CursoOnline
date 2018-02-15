@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using CursoOnline.Dominio._base;
+using CursoOnline.DominioTest._util;
 using ExpectedObjects;
 using Xunit;
 using Xunit.Sdk;
@@ -46,10 +48,9 @@ namespace CursoOnline.DominioTest.Cursos
                 Valor = (double)950
             };
 
-            var message = Assert.Throws<ArgumentException>(() => 
+            Assert.Throws<ValidadorDeRegra<Curso>>(() => 
                 new Curso(nomeInvalido, cursoEsperado.CargaHoraria, cursoEsperado.PublicoAlvo, cursoEsperado.Valor))
-                .Message;
-            Assert.Equal("Nome inválido", message);
+                .ComMensagem("Nome inválido 2");
         }
 
         [Theory]
@@ -66,7 +67,7 @@ namespace CursoOnline.DominioTest.Cursos
                 Valor = (double)950
             };
 
-            var message = Assert.Throws<ArgumentException>(() =>
+            var message = Assert.Throws<ValidadorDeRegra<Curso>>(() =>
                 new Curso(cursoEsperado.Nome, cargaHorariaInvalida, cursoEsperado.PublicoAlvo, cursoEsperado.Valor))
                 .Message;
             Assert.Equal("Carga horária inválida", message);
@@ -86,7 +87,7 @@ namespace CursoOnline.DominioTest.Cursos
                 Valor = (double)950
             };
 
-            var message = Assert.Throws<ArgumentException>(() =>
+            var message = Assert.Throws<ValidadorDeRegra<Curso>>(() =>
                 new Curso(cursoEsperado.Nome, cursoEsperado.CargaHoraria, cursoEsperado.PublicoAlvo, valorInvalido))
                 .Message;
             Assert.Equal("Valor inválido", message);
@@ -105,14 +106,20 @@ namespace CursoOnline.DominioTest.Cursos
     {
         public Curso(string nome, double cargaHoraria, PublicoAlvo publicoAlvo, double valor)
         {
-            if(string.IsNullOrEmpty(nome))
-                throw new ArgumentException("Nome inválido");
+            ValidadorDeRegra<Curso>.Criar()
+                .Validar(string.IsNullOrEmpty(nome), "Nome inválido")
+                .Validar(cargaHoraria < 1, "Carga horária inválida")
+                .Validar(valor < 1, "Valor inválido")
+                .LancarExcecao();
 
-            if(cargaHoraria < 1)
-                throw new ArgumentException("Carga horária inválida");
+            //if (string.IsNullOrEmpty(nome))
+            //    throw new ArgumentException("Nome inválido");
 
-            if(valor < 1)
-                throw new ArgumentException("Valor inválido");
+            //if(cargaHoraria < 1)
+            //    throw new ArgumentException("Carga horária inválida");
+
+            //if(valor < 1)
+            //    throw new ArgumentException("Valor inválido");
 
             Nome = nome;
             CargaHoraria = cargaHoraria;

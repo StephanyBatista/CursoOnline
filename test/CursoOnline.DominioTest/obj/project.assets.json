@@ -1688,6 +1688,16 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "CursoOnline.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/CursoOnline.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CursoOnline.Dominio.dll": {}
+        }
       }
     }
   },
@@ -5726,10 +5736,16 @@
         "xunit.runner.visualstudio.2.3.1.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "CursoOnline.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../../src/CursoOnline.Dominio/CursoOnline.Dominio.csproj",
+      "msbuildProject": "../../src/CursoOnline.Dominio/CursoOnline.Dominio.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "CursoOnline.Dominio >= 1.0.0",
       "ExpectedObjects >= 2.3.4",
       "Microsoft.NET.Test.Sdk >= 15.5.0",
       "Microsoft.NETCore.App >= 2.0.0",
@@ -5770,7 +5786,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\source\\CursoOnline\\src\\CursoOnline.Dominio\\CursoOnline.Dominio.csproj": {
+              "projectPath": "C:\\source\\CursoOnline\\src\\CursoOnline.Dominio\\CursoOnline.Dominio.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
