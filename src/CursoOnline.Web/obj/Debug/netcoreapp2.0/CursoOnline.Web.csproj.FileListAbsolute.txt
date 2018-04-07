@@ -1,0 +1,14 @@
+C:\source\CursoOnline\src\CursoOnline.Web\bin\Debug\netcoreapp2.0\CursoOnline.Web.deps.json
+C:\source\CursoOnline\src\CursoOnline.Web\bin\Debug\netcoreapp2.0\CursoOnline.Web.runtimeconfig.json
+C:\source\CursoOnline\src\CursoOnline.Web\bin\Debug\netcoreapp2.0\CursoOnline.Web.runtimeconfig.dev.json
+C:\source\CursoOnline\src\CursoOnline.Web\bin\Debug\netcoreapp2.0\CursoOnline.Web.dll
+C:\source\CursoOnline\src\CursoOnline.Web\bin\Debug\netcoreapp2.0\CursoOnline.Web.pdb
+C:\source\CursoOnline\src\CursoOnline.Web\bin\Debug\netcoreapp2.0\CursoOnline.Dominio.dll
+C:\source\CursoOnline\src\CursoOnline.Web\bin\Debug\netcoreapp2.0\CursoOnline.Dominio.pdb
+C:\source\CursoOnline\src\CursoOnline.Web\obj\Debug\netcoreapp2.0\CursoOnline.Web.csprojResolveAssemblyReference.cache
+C:\source\CursoOnline\src\CursoOnline.Web\obj\Debug\netcoreapp2.0\CursoOnline.Web.csproj.CoreCompileInputs.cache
+C:\source\CursoOnline\src\CursoOnline.Web\obj\Debug\netcoreapp2.0\CursoOnline.Web.AssemblyInfoInputs.cache
+C:\source\CursoOnline\src\CursoOnline.Web\obj\Debug\netcoreapp2.0\CursoOnline.Web.AssemblyInfo.cs
+C:\source\CursoOnline\src\CursoOnline.Web\obj\Debug\netcoreapp2.0\CursoOnline.Web.csproj.CopyComplete
+C:\source\CursoOnline\src\CursoOnline.Web\obj\Debug\netcoreapp2.0\CursoOnline.Web.dll
+C:\source\CursoOnline\src\CursoOnline.Web\obj\Debug\netcoreapp2.0\CursoOnline.Web.pdb
