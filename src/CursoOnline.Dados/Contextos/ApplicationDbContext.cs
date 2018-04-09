@@ -1,10 +1,12 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using CursoOnline.Dominio.Cursos;
+using CursoOnline.Dominio._Base;
 using Microsoft.EntityFrameworkCore;
 
 namespace CursoOnline.Dados.Contextos
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : DbContext, IUnitOfWork
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
@@ -18,9 +20,17 @@ namespace CursoOnline.Dados.Contextos
             base.OnModelCreating(modelBuilder);
         }
 
-        public async Task Commit()
+        public void Commit()
         {
-            await SaveChangesAsync();
+            try
+            {
+                SaveChanges();
+            }
+            catch (Exception ex)
+            {
+
+            }
+            
         }
     }
 }
