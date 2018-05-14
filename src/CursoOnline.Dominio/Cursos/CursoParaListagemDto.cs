@@ -2,7 +2,7 @@
 {
     public class CursoParaListagemDto
     {
-        public string Id { get; set; }
+        public int Id { get; set; }
         public string Nome { get; set; }
         public double CargaHoraria { get; set; }
         public string PublicoAlvo { get; set; }

@@ -4747,6 +4747,22 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
+      "CursoOnline.Dados/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "CursoOnline.Dominio": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "2.0.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.0.2",
+          "Microsoft.EntityFrameworkCore.Tools": "2.0.2"
+        },
+        "compile": {
+          "bin/placeholder/CursoOnline.Dados.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CursoOnline.Dados.dll": {}
+        }
+      },
       "CursoOnline.Dominio/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -4755,6 +4771,23 @@
         },
         "runtime": {
           "bin/placeholder/CursoOnline.Dominio.dll": {}
+        }
+      },
+      "CursoOnline.Ioc/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "CursoOnline.Dados": "1.0.0",
+          "CursoOnline.Dominio": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "2.0.2",
+          "Microsoft.Extensions.Configuration": "2.0.1",
+          "Microsoft.Extensions.DependencyInjection": "2.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CursoOnline.Ioc.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CursoOnline.Ioc.dll": {}
         }
       }
     }
@@ -12538,15 +12571,26 @@
         "windowsazure.storage.nuspec"
       ]
     },
+    "CursoOnline.Dados/1.0.0": {
+      "type": "project",
+      "path": "../CursoOnline.Dados/CursoOnline.Dados.csproj",
+      "msbuildProject": "../CursoOnline.Dados/CursoOnline.Dados.csproj"
+    },
     "CursoOnline.Dominio/1.0.0": {
       "type": "project",
       "path": "../CursoOnline.Dominio/CursoOnline.Dominio.csproj",
       "msbuildProject": "../CursoOnline.Dominio/CursoOnline.Dominio.csproj"
+    },
+    "CursoOnline.Ioc/1.0.0": {
+      "type": "project",
+      "path": "../CursoOnline.Ioc/CursoOnline.Ioc.csproj",
+      "msbuildProject": "../CursoOnline.Ioc/CursoOnline.Ioc.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "CursoOnline.Dominio >= 1.0.0",
+      "CursoOnline.Ioc >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.6",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
@@ -12584,6 +12628,9 @@
           "projectReferences": {
             "C:\\source\\CursoOnline\\src\\CursoOnline.Dominio\\CursoOnline.Dominio.csproj": {
               "projectPath": "C:\\source\\CursoOnline\\src\\CursoOnline.Dominio\\CursoOnline.Dominio.csproj"
+            },
+            "C:\\source\\CursoOnline\\src\\CursoOnline.Ioc\\CursoOnline.Ioc.csproj": {
+              "projectPath": "C:\\source\\CursoOnline\\src\\CursoOnline.Ioc\\CursoOnline.Ioc.csproj"
             }
           }
         }

@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoOnline.DominioTest", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoOnline.Dominio", "src\CursoOnline.Dominio\CursoOnline.Dominio.csproj", "{4DE53956-8DE5-4D77-B20C-B32AE5433701}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoOnline.Web", "src\CursoOnline.Web\CursoOnline.Web.csproj", "{3A3E264C-8F14-45D7-9600-8FAC31EBD2EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoOnline.Web", "src\CursoOnline.Web\CursoOnline.Web.csproj", "{3A3E264C-8F14-45D7-9600-8FAC31EBD2EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoOnline.Dados", "src\CursoOnline.Dados\CursoOnline.Dados.csproj", "{232D20D0-204B-4A4E-8E03-43BA19262C24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoOnline.Dados", "src\CursoOnline.Dados\CursoOnline.Dados.csproj", "{232D20D0-204B-4A4E-8E03-43BA19262C24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoOnline.Ioc", "src\CursoOnline.Ioc\CursoOnline.Ioc.csproj", "{60C9E844-F7CB-4354-B5F8-1213FBF8DCC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{232D20D0-204B-4A4E-8E03-43BA19262C24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{232D20D0-204B-4A4E-8E03-43BA19262C24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{232D20D0-204B-4A4E-8E03-43BA19262C24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60C9E844-F7CB-4354-B5F8-1213FBF8DCC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60C9E844-F7CB-4354-B5F8-1213FBF8DCC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60C9E844-F7CB-4354-B5F8-1213FBF8DCC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60C9E844-F7CB-4354-B5F8-1213FBF8DCC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

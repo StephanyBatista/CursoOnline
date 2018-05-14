@@ -18,7 +18,7 @@
     <div class="row form-wrapper">
         <div class="col-md-12">
             <form id="form" class="form-horizontal" asp-action="Salvar" asp-controller="Curso" asp-anti-forgery
-                  data-ajax="true" data-ajax-method="POST" data-ajax-success="window.location = '/Curso'">
+                  data-ajax="true" data-ajax-method="POST" data-ajax-failure="formQuandoFalha" data-ajax-success="window.location = '/Curso'">
                 <div class="form-group">
                     <label class="col-md-2 control-label">Nome</label>
                     <div class="col-md-8">
@@ -43,7 +43,7 @@
                 <div class="form-group">
                     <label class="col-md-2 control-label">Publico</label>
                     <div class="col-md-2">
-                        <select class="form-control"  asp-for="PublicoAlvo">
+                        <select class="form-control" asp-for="PublicoAlvo">
                             <option value="Estudante">Estudante</option>
                             <option value="Universitário">Universitário</option>
                             <option value="Empregado">Empregado</option>
@@ -72,6 +72,8 @@
     <script src="/js/jquery.validate.min.js"></script>
     <script src="/js/jquery.validate.unobtrusive.js"></script>
     <script src="/js/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="/js/excecaoDeDominio.js"></script>
+
 }
 
 
