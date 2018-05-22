@@ -1,9 +1,0 @@
-C:\source\CursoOnline\src\CursoOnline.Dominio\bin\Debug\netstandard2.0\CursoOnline.Dominio.deps.json
-C:\source\CursoOnline\src\CursoOnline.Dominio\bin\Debug\netstandard2.0\CursoOnline.Dominio.dll
-C:\source\CursoOnline\src\CursoOnline.Dominio\bin\Debug\netstandard2.0\CursoOnline.Dominio.pdb
-C:\source\CursoOnline\src\CursoOnline.Dominio\obj\Debug\netstandard2.0\CursoOnline.Dominio.csprojResolveAssemblyReference.cache
-C:\source\CursoOnline\src\CursoOnline.Dominio\obj\Debug\netstandard2.0\CursoOnline.Dominio.csproj.CoreCompileInputs.cache
-C:\source\CursoOnline\src\CursoOnline.Dominio\obj\Debug\netstandard2.0\CursoOnline.Dominio.AssemblyInfoInputs.cache
-C:\source\CursoOnline\src\CursoOnline.Dominio\obj\Debug\netstandard2.0\CursoOnline.Dominio.AssemblyInfo.cs
-C:\source\CursoOnline\src\CursoOnline.Dominio\obj\Debug\netstandard2.0\CursoOnline.Dominio.dll
-C:\source\CursoOnline\src\CursoOnline.Dominio\obj\Debug\netstandard2.0\CursoOnline.Dominio.pdb
