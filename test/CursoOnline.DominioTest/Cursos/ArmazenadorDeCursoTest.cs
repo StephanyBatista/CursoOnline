@@ -1,5 +1,4 @@
-﻿using System;
-using Bogus;
+﻿using Bogus;
 using CursoOnline.Dominio.Cursos;
 using CursoOnline.Dominio._Base;
 using CursoOnline.DominioTest._Builders;

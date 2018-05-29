@@ -6015,9 +6015,6 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
       "projectUniqueName": "C:\\source\\CursoOnline\\test\\CursoOnline.DominioTest\\CursoOnline.DominioTest.csproj",
       "projectName": "CursoOnline.DominioTest",
@@ -6037,8 +6034,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://gesigsenac.pkgs.visualstudio.com/_packaging/SigPackage/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
