@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using CursoOnline.Dominio.Cursos;
 using CursoOnline.Dominio._Base;
 using CursoOnline.Web.Util;

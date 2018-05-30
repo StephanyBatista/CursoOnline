@@ -1,6 +1,7 @@
 ﻿using Bogus;
 using Bogus.Extensions.Brazil;
 using CursoOnline.Dominio.Alunos;
+using CursoOnline.Dominio.Cursos;
 using CursoOnline.Dominio._Base;
 using CursoOnline.DominioTest._Builders;
 using CursoOnline.DominioTest._Util;
@@ -23,7 +24,8 @@ namespace CursoOnline.DominioTest.Alunos
             {
                 Nome = _faker.Person.FullName,
                 Email = _faker.Person.Email,
-                Cpf = _faker.Person.Cpf()
+                Cpf = _faker.Person.Cpf(),
+                PublicoAlvo = PublicoAlvo.Empregado.ToString(),
             };
             _alunoRepositorio = new Mock<IAlunoRepositorio>();
             _armazenadorDeAluno = new ArmazenadorDeAluno(_alunoRepositorio.Object);

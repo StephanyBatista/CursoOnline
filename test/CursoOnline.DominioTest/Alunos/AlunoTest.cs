@@ -22,7 +22,6 @@ namespace CursoOnline.DominioTest.Alunos
         [Fact]
         public void DeveCriarAluno()
         {
-            
             var alunoEsperado = new
             {
                 Nome = _faker.Person.FullName,
@@ -31,7 +30,7 @@ namespace CursoOnline.DominioTest.Alunos
                 PublicoAlvo = PublicoAlvo.Empreendedor
             };
 
-            var aluno = new Aluno(alunoEsperado.Nome, alunoEsperado.Email, alunoEsperado.Cpf, alunoEsperado.PublicoAlvo);
+            var aluno = new Aluno(alunoEsperado.Nome, alunoEsperado.Email, alunoEsperado.Cpf, alunoEsperado.PublicoAlvo.ToString());
 
             alunoEsperado.ToExpectedObject().ShouldMatch(aluno);
         }
@@ -79,6 +78,16 @@ namespace CursoOnline.DominioTest.Alunos
             Assert.Throws<ExcecaoDeDominio>(() =>
                     AlunoBuilder.Novo().ComCpf(cpfInvalido).Build())
                 .ComMensagem(Resource.CpfInvalido);
+        }
+
+        [Fact]
+        public void NaoDeveCriarComPublicoAlvoInvalido()
+        {
+            const string publicoAlvoInvalido = "Invalido";
+
+            Assert.Throws<ExcecaoDeDominio>(() =>
+                    AlunoBuilder.Novo().ComPublicoAlvo(publicoAlvoInvalido).Build())
+                .ComMensagem(Resource.PublicoAlvoInvalido);
         }
     }
 }

@@ -12,6 +12,7 @@ namespace CursoOnline.DominioTest._Builders
         protected string Nome;
         protected string Email;
         protected string Cpf;
+        protected string PublicoAlvo;
 
         public static AlunoBuilder Novo()
         {
@@ -21,7 +22,8 @@ namespace CursoOnline.DominioTest._Builders
             {
                 Nome = faker.Person.FullName,
                 Email = faker.Person.Email,
-                Cpf = faker.Person.Cpf()
+                Cpf = faker.Person.Cpf(),
+                PublicoAlvo = Dominio.Cursos.PublicoAlvo.Empregado.ToString()
             };
         }
 
@@ -49,9 +51,15 @@ namespace CursoOnline.DominioTest._Builders
             return this;
         }
 
+        public AlunoBuilder ComPublicoAlvo(string publicoAlvo)
+        {
+            PublicoAlvo = publicoAlvo;
+            return this;
+        }
+
         public Aluno Build()
         {
-            var aluno = new Aluno(Nome, Email, Cpf, PublicoAlvo.Empreendedor);
+            var aluno = new Aluno(Nome, Email, Cpf, PublicoAlvo);
 
             if (Id <= 0) return aluno;
 

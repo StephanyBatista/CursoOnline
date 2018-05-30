@@ -1,0 +1,71 @@
+﻿@using CursoOnline.Dominio.Alunos
+@model CursoOnline.Web.Util.PaginatedList<AlunoParaListagemDto>
+@{
+    ViewData["Title"] = "Alunos";
+}
+
+<div id="pad-wrapper">
+
+    <div class="row">
+        <div class="col-md-12">
+            <a href="/Aluno" class="btn">Voltar</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <a href="/Aluno/Novo" class="btn btn-primary">Novo</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>CPF</th>
+                        <th>E-mail</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @item.Nome
+                            </td>
+                            <td>
+                                @item.Cpf
+                            </td>
+                            <td>
+                                @item.Email
+                            </td>
+                            <td>
+                                <a href="/Aluno/Editar/@item.Id" class="btn">Editar</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            @{
+                var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+                var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+            }
+
+            <a asp-action="Index"
+               asp-route-page="@(Model.PageIndex - 1)"
+               class="btn btn-default @prevDisabled">
+                Anterior
+            </a>
+            <a asp-action="Index"
+               asp-route-page="@(Model.PageIndex + 1)"
+               class="btn btn-default @nextDisabled">
+                Próximo
+            </a>
+        </div>
+    </div>
+</div>
+
+
+

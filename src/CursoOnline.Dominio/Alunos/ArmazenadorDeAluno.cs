@@ -22,7 +22,7 @@ namespace CursoOnline.Dominio.Alunos
 
             if (alunoDto.Id == 0)
             {
-                var aluno = new Aluno(alunoDto.Nome, alunoDto.Email, alunoDto.Cpf, PublicoAlvo.Empreendedor);
+                var aluno = new Aluno(alunoDto.Nome, alunoDto.Email, alunoDto.Cpf, alunoDto.PublicoAlvo);
                 _alunoRepositorio.Adicionar(aluno);
             }
             else

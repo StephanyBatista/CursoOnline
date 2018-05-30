@@ -21,6 +21,24 @@ namespace CursoOnline.Dados.Migrations
                 .HasAnnotation("ProductVersion", "2.0.2-rtm-10011")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("CursoOnline.Dominio.Alunos.Aluno", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Cpf");
+
+                    b.Property<string>("Email");
+
+                    b.Property<string>("Nome");
+
+                    b.Property<int>("PublicoAlvo");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Alunos");
+                });
+
             modelBuilder.Entity("CursoOnline.Dominio.Cursos.Curso", b =>
                 {
                     b.Property<int>("Id")
