@@ -1,4 +1,4 @@
-﻿using CursoOnline.Dominio.Cursos;
+﻿using CursoOnline.Dominio.PublicosAlvo;
 using CursoOnline.Dominio._Base;
 
 namespace CursoOnline.Dominio.Alunos
@@ -6,10 +6,12 @@ namespace CursoOnline.Dominio.Alunos
     public class ArmazenadorDeAluno
     {
         private readonly IAlunoRepositorio _alunoRepositorio;
+        private readonly IConversorDePublicoAlvo _conversorDePublicoAlvo;
 
-        public ArmazenadorDeAluno(IAlunoRepositorio alunoRepositorio)
+        public ArmazenadorDeAluno(IAlunoRepositorio alunoRepositorio, IConversorDePublicoAlvo conversorDePublicoAlvo)
         {
             _alunoRepositorio = alunoRepositorio;
+            _conversorDePublicoAlvo = conversorDePublicoAlvo;
         }
 
         public void Armazenar(AlunoDto alunoDto)
@@ -22,7 +24,8 @@ namespace CursoOnline.Dominio.Alunos
 
             if (alunoDto.Id == 0)
             {
-                var aluno = new Aluno(alunoDto.Nome, alunoDto.Email, alunoDto.Cpf, alunoDto.PublicoAlvo);
+                var publicoAlvoConvertido = _conversorDePublicoAlvo.Converter(alunoDto.PublicoAlvo);
+                var aluno = new Aluno(alunoDto.Nome, alunoDto.Email, alunoDto.Cpf, publicoAlvoConvertido);
                 _alunoRepositorio.Adicionar(aluno);
             }
             else

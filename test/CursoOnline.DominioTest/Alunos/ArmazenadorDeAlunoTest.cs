@@ -2,6 +2,7 @@
 using Bogus.Extensions.Brazil;
 using CursoOnline.Dominio.Alunos;
 using CursoOnline.Dominio.Cursos;
+using CursoOnline.Dominio.PublicosAlvo;
 using CursoOnline.Dominio._Base;
 using CursoOnline.DominioTest._Builders;
 using CursoOnline.DominioTest._Util;
@@ -28,7 +29,8 @@ namespace CursoOnline.DominioTest.Alunos
                 PublicoAlvo = PublicoAlvo.Empregado.ToString(),
             };
             _alunoRepositorio = new Mock<IAlunoRepositorio>();
-            _armazenadorDeAluno = new ArmazenadorDeAluno(_alunoRepositorio.Object);
+            var conversorDePublicoAlvo = new Mock<IConversorDePublicoAlvo>();
+            _armazenadorDeAluno = new ArmazenadorDeAluno(_alunoRepositorio.Object, conversorDePublicoAlvo.Object);
         }
 
         [Fact]
@@ -50,7 +52,7 @@ namespace CursoOnline.DominioTest.Alunos
         }
 
         [Fact]
-        public void DeveEditarAluno()
+        public void DeveEditarNomeDoAluno()
         {
             _alunoDto.Id = 35;
             _alunoDto.Nome = _faker.Person.FullName;
@@ -60,6 +62,23 @@ namespace CursoOnline.DominioTest.Alunos
             _armazenadorDeAluno.Armazenar(_alunoDto);
 
             Assert.Equal(_alunoDto.Nome, alunoJaSalvo.Nome);
+        }
+
+        [Fact]
+        public void NaoDeveEditarDemaisInformacoesDoAluno()
+        {
+            _alunoDto.Id = 35;
+            var alunoJaSalvo = AlunoBuilder.Novo().Build();
+            var cpfEsperado = alunoJaSalvo.Cpf;
+            var emailEsperado = alunoJaSalvo.Email;
+            var publicoAlvoEsperado = alunoJaSalvo.PublicoAlvo;
+            _alunoRepositorio.Setup(r => r.ObterPorId(_alunoDto.Id)).Returns(alunoJaSalvo);
+
+            _armazenadorDeAluno.Armazenar(_alunoDto);
+
+            Assert.Equal(cpfEsperado, alunoJaSalvo.Cpf);
+            Assert.Equal(emailEsperado, alunoJaSalvo.Email);
+            Assert.Equal(publicoAlvoEsperado, alunoJaSalvo.PublicoAlvo);
         }
 
         [Fact]

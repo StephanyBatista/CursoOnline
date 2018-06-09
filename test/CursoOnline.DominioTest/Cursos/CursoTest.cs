@@ -1,6 +1,7 @@
 ﻿using System;
 using Bogus;
 using CursoOnline.Dominio.Cursos;
+using CursoOnline.Dominio.PublicosAlvo;
 using CursoOnline.Dominio._Base;
 using CursoOnline.DominioTest._Builders;
 using CursoOnline.DominioTest._Util;
@@ -14,7 +15,7 @@ namespace CursoOnline.DominioTest.Cursos
     {
         private readonly string _nome;
         private readonly double _cargaHoraria;
-        private readonly PublicoAlvo _publicoAlvo;
+        private readonly Dominio.PublicosAlvo.PublicoAlvo _publicoAlvo;
         private readonly double _valor;
         private readonly string _descricao;
         private readonly Faker _faker;

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using CursoOnline.Dominio.Cursos;
+using CursoOnline.Dominio.PublicosAlvo;
 using CursoOnline.DominioTest.Cursos;
 
 namespace CursoOnline.DominioTest._Builders

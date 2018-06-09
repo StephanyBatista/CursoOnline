@@ -1,6 +1,7 @@
 using System;
 using System.Text.RegularExpressions;
 using CursoOnline.Dominio.Cursos;
+using CursoOnline.Dominio.PublicosAlvo;
 using CursoOnline.Dominio._Base;
 
 namespace CursoOnline.Dominio.Alunos
@@ -16,19 +17,18 @@ namespace CursoOnline.Dominio.Alunos
 
         private Aluno() { }
 
-        public Aluno(string nome, string email, string cpf, string publicoAlvo)
+        public Aluno(string nome, string email, string cpf, PublicoAlvo publicoAlvo)
         {
             ValidadorDeRegra.Novo()
                 .Quando(string.IsNullOrEmpty(nome), Resource.NomeInvalido)
                 .Quando(string.IsNullOrEmpty(email) || !_emailRegex.Match(email).Success, Resource.EmailInvalido)
                 .Quando(string.IsNullOrEmpty(cpf) || !_cpfRegex.Match(cpf).Success, Resource.CpfInvalido)
-                .Quando(!Enum.TryParse<PublicoAlvo>(publicoAlvo, out var publicoAlvoConvertido), Resource.PublicoAlvoInvalido)
                 .DispararExcecaoSeExistir();
 
             Nome = nome;
             Cpf = cpf;
             Email = email;
-            PublicoAlvo = publicoAlvoConvertido;
+            PublicoAlvo = publicoAlvo;
         }
 
         public void AlterarNome(string nome)

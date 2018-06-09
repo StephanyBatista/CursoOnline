@@ -3,6 +3,7 @@ using Bogus;
 using Bogus.Extensions.Brazil;
 using CursoOnline.Dominio.Alunos;
 using CursoOnline.Dominio.Cursos;
+using CursoOnline.Dominio.PublicosAlvo;
 
 namespace CursoOnline.DominioTest._Builders
 {
@@ -12,7 +13,7 @@ namespace CursoOnline.DominioTest._Builders
         protected string Nome;
         protected string Email;
         protected string Cpf;
-        protected string PublicoAlvo;
+        protected PublicoAlvo PublicoAlvo;
 
         public static AlunoBuilder Novo()
         {
@@ -23,7 +24,7 @@ namespace CursoOnline.DominioTest._Builders
                 Nome = faker.Person.FullName,
                 Email = faker.Person.Email,
                 Cpf = faker.Person.Cpf(),
-                PublicoAlvo = Dominio.Cursos.PublicoAlvo.Empregado.ToString()
+                PublicoAlvo = PublicoAlvo.Empregado
             };
         }
 
@@ -51,7 +52,7 @@ namespace CursoOnline.DominioTest._Builders
             return this;
         }
 
-        public AlunoBuilder ComPublicoAlvo(string publicoAlvo)
+        public AlunoBuilder ComPublicoAlvo(PublicoAlvo publicoAlvo)
         {
             PublicoAlvo = publicoAlvo;
             return this;
