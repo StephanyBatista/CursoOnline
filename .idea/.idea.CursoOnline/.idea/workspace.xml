@@ -1,16 +1,302 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="578f8899-2a2a-45a1-a428-1103109a580a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CursoOnline/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CursoOnline/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CursoOnline/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CursoOnline/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CursoOnline.Dominio/CursoOnline.Dominio.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoOnline.Dominio/CursoOnline.Dominio.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CursoOnline.Web/CursoOnline.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoOnline.Web/CursoOnline.Web.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CursoOnline.DominioTest/bin/Debug/netcoreapp2.0/CursoOnline.Dominio.dll" beforeDir="false" afterPath="$PROJECT_DIR$/test/CursoOnline.DominioTest/bin/Debug/netcoreapp2.0/CursoOnline.Dominio.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CursoOnline.DominioTest/bin/Debug/netcoreapp2.0/CursoOnline.Dominio.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/test/CursoOnline.DominioTest/bin/Debug/netcoreapp2.0/CursoOnline.Dominio.pdb" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="CursoTest.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/CursoOnline.DominioTest/Cursos/CursoTest.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="100" column="63" selection-start-line="100" selection-start-column="63" selection-end-line="100" selection-end-column="63" />
+              <folding>
+                <marker date="1527776318373" expanded="false" signature="6:273" ph="..." />
+                <marker date="1527776318373" expanded="true" signature="315:4630" ph="{...}" />
+                <marker date="1527776318373" expanded="true" signature="344:4628" ph="{...}" />
+                <marker date="1527776318373" expanded="true" signature="659:971" ph="{...}" />
+                <marker date="1527776318373" expanded="true" signature="1024:1523" ph="{...}" />
+                <marker date="1527776318373" expanded="true" signature="1083:1289" ph="{...}" />
+                <marker date="1527776318373" expanded="true" signature="1664:1854" ph="{...}" />
+                <marker date="1527776318373" expanded="true" signature="2036:2250" ph="{...}" />
+                <marker date="1527776318373" expanded="true" signature="2420:2613" ph="{...}" />
+                <marker date="1527776318373" expanded="true" signature="2667:2894" ph="{...}" />
+                <marker date="1527776318373" expanded="true" signature="3035:3245" ph="{...}" />
+                <marker date="1527776318373" expanded="true" signature="3307:3556" ph="{...}" />
+                <marker date="1527776318373" expanded="true" signature="3737:3971" ph="{...}" />
+                <marker date="1527776318373" expanded="true" signature="4026:4242" ph="{...}" />
+                <marker date="1527776318373" expanded="true" signature="4409:4622" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Curso.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CursoOnline.Dominio/Cursos/Curso.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="33" column="73" selection-start-line="33" selection-start-column="73" selection-end-line="33" selection-end-column="73" />
+              <folding>
+                <marker date="1530534991880" expanded="true" signature="6:72" ph="..." />
+                <marker date="1530534991880" expanded="true" signature="110:1811" ph="{...}" />
+                <marker date="1530534991880" expanded="true" signature="146:1809" ph="{...}" />
+                <marker date="1530534991880" expanded="true" signature="565:1041" ph="{...}" />
+                <marker date="1530534991880" expanded="true" signature="1087:1289" ph="{...}" />
+                <marker date="1530534991880" expanded="true" signature="1351:1567" ph="{...}" />
+                <marker date="1530534991880" expanded="true" signature="1615:1803" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MatriculaController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CursoOnline.Web/Controllers/MatriculaController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <marker date="1530535735660" expanded="true" signature="6:183" ph="..." />
+                <marker date="1530535735660" expanded="true" signature="222:1645" ph="{...}" />
+                <marker date="1530535735660" expanded="true" signature="274:1643" ph="{...}" />
+                <marker date="1530535735660" expanded="true" signature="538:670" ph="{...}" />
+                <marker date="1530535735660" expanded="true" signature="708:1359" ph="{...}" />
+                <marker date="1530535735660" expanded="true" signature="817:1255" ph="{...}" />
+                <marker date="1530535735660" expanded="true" signature="952:1138" ph="{...}" />
+                <marker date="1530535735660" expanded="true" signature="1396:1469" ph="{...}" />
+                <marker date="1530535735660" expanded="true" signature="1545:1637" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Index.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CursoOnline.Web/Views/Matricula/Index.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+              <folding>
+                <marker date="1530535899292" expanded="true" signature="7:65" ph="..." />
+                <marker date="1530535899292" expanded="true" signature="134:172" ph="@..." />
+                <marker date="1530535899292" expanded="true" signature="174:2134" ph="&lt;div.../&gt;" />
+                <marker date="1530535899292" expanded="true" signature="202:348" ph="&lt;div.../&gt;" />
+                <marker date="1530535899292" expanded="true" signature="228:337" ph="&lt;div.../&gt;" />
+                <marker date="1530535899292" expanded="true" signature="353:2127" ph="&lt;div.../&gt;" />
+                <marker date="1530535899292" expanded="true" signature="379:2116" ph="&lt;div.../&gt;" />
+                <marker date="1530535899292" expanded="true" signature="415:1551" ph="&lt;table.../&gt;" />
+                <marker date="1530535899292" expanded="true" signature="465:718" ph="&lt;thead.../&gt;" />
+                <marker date="1530535899292" expanded="true" signature="493:693" ph="&lt;tr.../&gt;" />
+                <marker date="1530535899292" expanded="true" signature="735:1530" ph="&lt;tbody.../&gt;" />
+                <marker date="1530535899292" expanded="true" signature="763:1505" ph="@..." />
+                <marker date="1530535899292" expanded="true" signature="791:1505" ph="{...}" />
+                <marker date="1530535899292" expanded="true" signature="838:1483" ph="&lt;tr.../&gt;" />
+                <marker date="1530535899292" expanded="true" signature="871:952" ph="&lt;td.../&gt;" />
+                <marker date="1530535899292" expanded="true" signature="981:1070" ph="&lt;td.../&gt;" />
+                <marker date="1530535899292" expanded="true" signature="1099:1187" ph="&lt;td.../&gt;" />
+                <marker date="1530535899292" expanded="true" signature="1216:1298" ph="&lt;td.../&gt;" />
+                <marker date="1530535899292" expanded="true" signature="1327:1453" ph="&lt;td.../&gt;" />
+                <marker date="1530535899292" expanded="true" signature="1565:1731" ph="@..." />
+                <marker date="1530535899292" expanded="true" signature="1745:1917" ph="&lt;a.../&gt;" />
+                <marker date="1530535899292" expanded="true" signature="1930:2101" ph="&lt;a.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Nova.cshtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CursoOnline.Web/Views/Matricula/Nova.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="60" column="22" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+              <folding>
+                <marker date="1530535946253" expanded="true" signature="50:88" ph="@..." />
+                <marker date="1530535946253" expanded="true" signature="90:3182" ph="&lt;div.../&gt;" />
+                <marker date="1530535946253" expanded="true" signature="118:250" ph="&lt;div.../&gt;" />
+                <marker date="1530535946253" expanded="true" signature="144:239" ph="&lt;div.../&gt;" />
+                <marker date="1530535946253" expanded="true" signature="255:368" ph="&lt;div.../&gt;" />
+                <marker date="1530535946253" expanded="true" signature="288:357" ph="&lt;div.../&gt;" />
+                <marker date="1530535946253" expanded="true" signature="373:3175" ph="&lt;div.../&gt;" />
+                <marker date="1530535946253" expanded="true" signature="412:3164" ph="&lt;div.../&gt;" />
+                <marker date="1530535946253" expanded="true" signature="448:3149" ph="&lt;form.../&gt;" />
+                <marker date="1530535946253" expanded="true" signature="779:1131" ph="&lt;div.../&gt;" />
+                <marker date="1530535946253" expanded="true" signature="895:1108" ph="&lt;div.../&gt;" />
+                <marker date="1530535946253" expanded="true" signature="1148:1529" ph="&lt;div.../&gt;" />
+                <marker date="1530535946253" expanded="true" signature="1269:1506" ph="&lt;div.../&gt;" />
+                <marker date="1530535946253" expanded="true" signature="1546:1923" ph="&lt;div.../&gt;" />
+                <marker date="1530535946253" expanded="true" signature="1671:1900" ph="&lt;div.../&gt;" />
+                <marker date="1530535946253" expanded="true" signature="1940:2547" ph="&lt;div.../&gt;" />
+                <marker date="1530535946253" expanded="true" signature="2059:2524" ph="&lt;div.../&gt;" />
+                <marker date="1530535946253" expanded="true" signature="2106:2497" ph="&lt;select.../&gt;" />
+                <marker date="1530535946253" expanded="true" signature="2564:2907" ph="&lt;div.../&gt;" />
+                <marker date="1530535946253" expanded="true" signature="2681:2884" ph="&lt;div.../&gt;" />
+                <marker date="1530535946253" expanded="true" signature="2924:3129" ph="&lt;div.../&gt;" />
+                <marker date="1530535946253" expanded="true" signature="2969:3106" ph="&lt;div.../&gt;" />
+                <marker date="1530535946253" expanded="true" signature="3184:3437" ph="@{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MatriculaDto.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CursoOnline.Dominio/Matriculas/MatriculaDto.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding>
+                <marker date="1528576977773" expanded="true" signature="40:214" ph="{...}" />
+                <marker date="1528576977773" expanded="true" signature="72:212" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MatriculaParaListagemDto.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CursoOnline.Dominio/Matriculas/MatriculaParaListagemDto.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CriacaoDaMatricula.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CursoOnline.Dominio/Matriculas/CriacaoDaMatricula.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="6" column="35" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="35" />
+              <folding>
+                <marker date="1528576977772" expanded="false" signature="6:100" ph="..." />
+                <marker date="1528576977772" expanded="true" signature="142:1312" ph="{...}" />
+                <marker date="1528576977772" expanded="true" signature="180:1310" ph="{...}" />
+                <marker date="1528576977772" expanded="true" signature="543:721" ph="{...}" />
+                <marker date="1528576977772" expanded="true" signature="775:1304" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/CursoOnline.Dominio/Matriculas/MatriculaParaListagemDto.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/CursoOnline.Dominio/Cursos/Curso.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/CursoOnline.Web/Views/Matricula/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/CursoOnline.Web/Views/Matricula/Nova.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/CursoOnline.Dominio/Matriculas/MatriculaDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/CursoOnline.Dominio/Matriculas/CriacaoDaMatricula.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/CursoOnline.Web/Controllers/MatriculaController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/test/CursoOnline.DominioTest/Cursos/CursoTest.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/CursoOnline.Dominio/Cursos/Curso.cs" />
+        <option value="$PROJECT_DIR$/src/CursoOnline.Web/Controllers/MatriculaController.cs" />
+        <option value="$PROJECT_DIR$/src/CursoOnline.Web/Views/Matricula/Index.cshtml" />
+        <option value="$PROJECT_DIR$/src/CursoOnline.Web/Views/Matricula/Nova.cshtml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="45" />
     <option name="y" value="32" />
     <option name="width" value="2515" />
     <option name="height" value="1048" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="CursoOnline (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="CursoOnline (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="CursoOnline.Dominio" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="CursoOnline (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="CursoOnline.Dominio" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Matriculas" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="CursoOnline (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="CursoOnline.Web" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="CursoOnline (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="CursoOnline.Web" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="CursoOnline (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="CursoOnline.Web" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Matricula" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -25,5 +311,226 @@
       <option name="PROJECT_KIND" value="None" />
       <option name="PROJECT_TFM" value="" />
     </configuration>
+    <list>
+      <item itemvalue=".NET Project.Default" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="578f8899-2a2a-45a1-a428-1103109a580a" name="Default" comment="" />
+      <created>1530534866853</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530534866853</updated>
+      <workItem from="1530534869445" duration="1545000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1545000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="45" y="34" width="2515" height="1046" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" weight="0.32914287" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="REST Client" weight="0.32914287" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32914287" />
+      <window_info anchor="bottom" id="NuGet" weight="0.32914287" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17311609" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/CursoOnline.DominioTest/Cursos/CursoTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="100" column="63" selection-start-line="100" selection-start-column="63" selection-end-line="100" selection-end-column="63" />
+          <folding>
+            <marker date="1527776318373" expanded="false" signature="6:273" ph="..." />
+            <marker date="1527776318373" expanded="true" signature="315:4630" ph="{...}" />
+            <marker date="1527776318373" expanded="true" signature="344:4628" ph="{...}" />
+            <marker date="1527776318373" expanded="true" signature="659:971" ph="{...}" />
+            <marker date="1527776318373" expanded="true" signature="1024:1523" ph="{...}" />
+            <marker date="1527776318373" expanded="true" signature="1083:1289" ph="{...}" />
+            <marker date="1527776318373" expanded="true" signature="1664:1854" ph="{...}" />
+            <marker date="1527776318373" expanded="true" signature="2036:2250" ph="{...}" />
+            <marker date="1527776318373" expanded="true" signature="2420:2613" ph="{...}" />
+            <marker date="1527776318373" expanded="true" signature="2667:2894" ph="{...}" />
+            <marker date="1527776318373" expanded="true" signature="3035:3245" ph="{...}" />
+            <marker date="1527776318373" expanded="true" signature="3307:3556" ph="{...}" />
+            <marker date="1527776318373" expanded="true" signature="3737:3971" ph="{...}" />
+            <marker date="1527776318373" expanded="true" signature="4026:4242" ph="{...}" />
+            <marker date="1527776318373" expanded="true" signature="4409:4622" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CursoOnline.Dominio/Cursos/Curso.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="33" column="73" selection-start-line="33" selection-start-column="73" selection-end-line="33" selection-end-column="73" />
+          <folding>
+            <marker date="1530534991880" expanded="true" signature="6:72" ph="..." />
+            <marker date="1530534991880" expanded="true" signature="110:1811" ph="{...}" />
+            <marker date="1530534991880" expanded="true" signature="146:1809" ph="{...}" />
+            <marker date="1530534991880" expanded="true" signature="565:1041" ph="{...}" />
+            <marker date="1530534991880" expanded="true" signature="1087:1289" ph="{...}" />
+            <marker date="1530534991880" expanded="true" signature="1351:1567" ph="{...}" />
+            <marker date="1530534991880" expanded="true" signature="1615:1803" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CursoOnline.Dominio/Matriculas/CriacaoDaMatricula.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <marker date="1528576977772" expanded="false" signature="6:100" ph="..." />
+            <marker date="1528576977772" expanded="true" signature="142:1312" ph="{...}" />
+            <marker date="1528576977772" expanded="true" signature="180:1310" ph="{...}" />
+            <marker date="1528576977772" expanded="true" signature="543:721" ph="{...}" />
+            <marker date="1528576977772" expanded="true" signature="775:1304" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CursoOnline.Dominio/Matriculas/MatriculaParaListagemDto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CursoOnline.Dominio/Matriculas/MatriculaDto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <marker date="1528576977773" expanded="true" signature="40:214" ph="{...}" />
+            <marker date="1528576977773" expanded="true" signature="72:212" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CursoOnline.Web/Controllers/MatriculaController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <marker date="1530535735660" expanded="true" signature="6:183" ph="..." />
+            <marker date="1530535735660" expanded="true" signature="222:1645" ph="{...}" />
+            <marker date="1530535735660" expanded="true" signature="274:1643" ph="{...}" />
+            <marker date="1530535735660" expanded="true" signature="538:670" ph="{...}" />
+            <marker date="1530535735660" expanded="true" signature="708:1359" ph="{...}" />
+            <marker date="1530535735660" expanded="true" signature="817:1255" ph="{...}" />
+            <marker date="1530535735660" expanded="true" signature="952:1138" ph="{...}" />
+            <marker date="1530535735660" expanded="true" signature="1396:1469" ph="{...}" />
+            <marker date="1530535735660" expanded="true" signature="1545:1637" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CursoOnline.Web/Views/Matricula/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding>
+            <marker date="1530535899292" expanded="true" signature="7:65" ph="..." />
+            <marker date="1530535899292" expanded="true" signature="134:172" ph="@..." />
+            <marker date="1530535899292" expanded="true" signature="174:2134" ph="&lt;div.../&gt;" />
+            <marker date="1530535899292" expanded="true" signature="202:348" ph="&lt;div.../&gt;" />
+            <marker date="1530535899292" expanded="true" signature="228:337" ph="&lt;div.../&gt;" />
+            <marker date="1530535899292" expanded="true" signature="353:2127" ph="&lt;div.../&gt;" />
+            <marker date="1530535899292" expanded="true" signature="379:2116" ph="&lt;div.../&gt;" />
+            <marker date="1530535899292" expanded="true" signature="415:1551" ph="&lt;table.../&gt;" />
+            <marker date="1530535899292" expanded="true" signature="465:718" ph="&lt;thead.../&gt;" />
+            <marker date="1530535899292" expanded="true" signature="493:693" ph="&lt;tr.../&gt;" />
+            <marker date="1530535899292" expanded="true" signature="735:1530" ph="&lt;tbody.../&gt;" />
+            <marker date="1530535899292" expanded="true" signature="763:1505" ph="@..." />
+            <marker date="1530535899292" expanded="true" signature="791:1505" ph="{...}" />
+            <marker date="1530535899292" expanded="true" signature="838:1483" ph="&lt;tr.../&gt;" />
+            <marker date="1530535899292" expanded="true" signature="871:952" ph="&lt;td.../&gt;" />
+            <marker date="1530535899292" expanded="true" signature="981:1070" ph="&lt;td.../&gt;" />
+            <marker date="1530535899292" expanded="true" signature="1099:1187" ph="&lt;td.../&gt;" />
+            <marker date="1530535899292" expanded="true" signature="1216:1298" ph="&lt;td.../&gt;" />
+            <marker date="1530535899292" expanded="true" signature="1327:1453" ph="&lt;td.../&gt;" />
+            <marker date="1530535899292" expanded="true" signature="1565:1731" ph="@..." />
+            <marker date="1530535899292" expanded="true" signature="1745:1917" ph="&lt;a.../&gt;" />
+            <marker date="1530535899292" expanded="true" signature="1930:2101" ph="&lt;a.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CursoOnline.Web/Views/Matricula/Nova.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="60" column="22" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+          <folding>
+            <marker date="1530535946253" expanded="true" signature="50:88" ph="@..." />
+            <marker date="1530535946253" expanded="true" signature="90:3182" ph="&lt;div.../&gt;" />
+            <marker date="1530535946253" expanded="true" signature="118:250" ph="&lt;div.../&gt;" />
+            <marker date="1530535946253" expanded="true" signature="144:239" ph="&lt;div.../&gt;" />
+            <marker date="1530535946253" expanded="true" signature="255:368" ph="&lt;div.../&gt;" />
+            <marker date="1530535946253" expanded="true" signature="288:357" ph="&lt;div.../&gt;" />
+            <marker date="1530535946253" expanded="true" signature="373:3175" ph="&lt;div.../&gt;" />
+            <marker date="1530535946253" expanded="true" signature="412:3164" ph="&lt;div.../&gt;" />
+            <marker date="1530535946253" expanded="true" signature="448:3149" ph="&lt;form.../&gt;" />
+            <marker date="1530535946253" expanded="true" signature="779:1131" ph="&lt;div.../&gt;" />
+            <marker date="1530535946253" expanded="true" signature="895:1108" ph="&lt;div.../&gt;" />
+            <marker date="1530535946253" expanded="true" signature="1148:1529" ph="&lt;div.../&gt;" />
+            <marker date="1530535946253" expanded="true" signature="1269:1506" ph="&lt;div.../&gt;" />
+            <marker date="1530535946253" expanded="true" signature="1546:1923" ph="&lt;div.../&gt;" />
+            <marker date="1530535946253" expanded="true" signature="1671:1900" ph="&lt;div.../&gt;" />
+            <marker date="1530535946253" expanded="true" signature="1940:2547" ph="&lt;div.../&gt;" />
+            <marker date="1530535946253" expanded="true" signature="2059:2524" ph="&lt;div.../&gt;" />
+            <marker date="1530535946253" expanded="true" signature="2106:2497" ph="&lt;select.../&gt;" />
+            <marker date="1530535946253" expanded="true" signature="2564:2907" ph="&lt;div.../&gt;" />
+            <marker date="1530535946253" expanded="true" signature="2681:2884" ph="&lt;div.../&gt;" />
+            <marker date="1530535946253" expanded="true" signature="2924:3129" ph="&lt;div.../&gt;" />
+            <marker date="1530535946253" expanded="true" signature="2969:3106" ph="&lt;div.../&gt;" />
+            <marker date="1530535946253" expanded="true" signature="3184:3437" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

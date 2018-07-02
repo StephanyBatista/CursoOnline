@@ -59,6 +59,7 @@
           <e p="IMatriculaRepositorio.cs" t="Include" />
           <e p="Matricula.cs" t="Include" />
           <e p="MatriculaDto.cs" t="Include" />
+          <e p="MatriculaParaListagemDto.cs" t="Include" />
         </e>
         <e p="PublicosAlvo" t="Include">
           <e p="ConversorDePublicoAlvo.cs" t="Include" />
@@ -98,6 +99,7 @@
           <e p="AlunoController.cs" t="Include" />
           <e p="CursoController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
+          <e p="MatriculaController.cs" t="Include" />
         </e>
         <e p="CursoOnline.Web.csproj" t="IncludeRecursive" />
         <e p="Filters" t="Include">
@@ -127,6 +129,10 @@
             <e p="About.cshtml" t="Include" />
             <e p="Contact.cshtml" t="Include" />
             <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Matricula" t="Include">
+            <e p="Index.cshtml" t="Include" />
+            <e p="Nova.cshtml" t="Include" />
           </e>
           <e p="Shared" t="Include">
             <e p="Error.cshtml" t="Include" />
