@@ -31,7 +31,7 @@ namespace CursoOnline.Dominio.Cursos
         public void AlterarNome(string nome)
         {
             ValidadorDeRegra.Novo()
-                .Quando(string.IsNullOrEmpty(nome), Resource.ValorInvalido)
+                .Quando(string.IsNullOrEmpty(nome), Resource.NomeInvalido)
                 .DispararExcecaoSeExistir();
 
             Nome = nome;
