@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="$USER_HOME$/.Rider2018.1/system/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_CursoOnline.835730895.00" t="ExcludeRecursive" />
-    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
-    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
-    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0-rc.1.build4038/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0-rc.1.build4038/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0-rc.1.build4038/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="CursoOnline.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
@@ -148,7 +148,7 @@
         <e p="bundleconfig.json" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netcoreapp2.0" t="Include">
+            <e p="netcoreapp2.1" t="Include">
               <e p="CursoOnline.Web.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
@@ -264,7 +264,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netcoreapp2.0" t="Include">
+            <e p="netcoreapp2.1" t="Include">
               <e p="CursoOnline.DominioTest.AssemblyInfo.cs" t="Include" />
               <e p="CursoOnline.DominioTest.Program.cs" t="Include" />
             </e>

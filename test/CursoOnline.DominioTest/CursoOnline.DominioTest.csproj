@@ -1,23 +1,18 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
-
+    <TargetFramework>netcoreapp2.1</TargetFramework>
     <IsPackable>false</IsPackable>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="Bogus" Version="22.0.2" />
     <PackageReference Include="ExpectedObjects" Version="2.3.4" />
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.5.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.8.0-preview-20180610-02" />
     <PackageReference Include="Moq" Version="4.8.2" />
-    <PackageReference Include="xunit" Version="2.3.1" />
-    <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
+    <PackageReference Include="xunit" Version="2.4.0-rc.1.build4038" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0-rc.1.build4038" />
     <DotNetCliToolReference Include="dotnet-xunit" Version="2.3.1" />
   </ItemGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\..\src\CursoOnline.Dominio\CursoOnline.Dominio.csproj" />
   </ItemGroup>
-
 </Project>

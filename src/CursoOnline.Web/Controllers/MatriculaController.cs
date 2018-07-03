@@ -34,7 +34,7 @@ namespace CursoOnline.Web.Controllers
                 return View("Index", PaginatedList<MatriculaParaListagemDto>.Create(dtos, Request));
             }
 
-            return View("Index", PaginatedList<CursoParaListagemDto>.Create(null, Request));
+            return View("Index", PaginatedList<MatriculaParaListagemDto>.Create(null, Request));
         }
 
         public IActionResult Novo()
