@@ -8,6 +8,7 @@ using CursoOnline.Dominio._Base;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using CursoOnline.Dominio.Matriculas;
 
 namespace CursoOnline.Ioc
 {
@@ -24,6 +25,10 @@ namespace CursoOnline.Ioc
             services.AddScoped(typeof(IConversorDePublicoAlvo), typeof(ConversorDePublicoAlvo));
             services.AddScoped<ArmazenadorDeCurso>();
             services.AddScoped<ArmazenadorDeAluno>();
+            services.AddScoped<CriacaoDaMatricula>();
+            services.AddScoped<CriacaoDaMatricula>();
+            services.AddScoped<ConclusaoDaMatricula>();
+            services.AddScoped<CancelamentoDaMatricula>();
         }
     }
 }

@@ -19,7 +19,30 @@
         <div class="col-md-12">
             <form id="form" class="form-horizontal" asp-action="Salvar" asp-controller="Curso" asp-anti-forgery
                   data-ajax="true" data-ajax-method="POST" data-ajax-failure="formQuandoFalha" data-ajax-success="window.location = '/Curso'">
-                
+                <div class="form-group">
+                    <label class="col-md-2 control-label">Aluno</label>
+                    <div class="col-md-10">
+                        <select class="form-control" asp-for="AlunoId" asp-items="@(new SelectList(@Model.Alunos, "Id", "Nome"))">
+                            <option></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">Curso</label>
+                    <div class="col-md-10">
+                        <select class="form-control" asp-for="CursoId" asp-items="@(new SelectList(@Model.Cursos, "Id", "Nome"))">
+                            <option></option>
+                        </select>
+                    </div>
+                </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">Valor</label>
+                    <div class="col-md-2">
+                        <input class="form-control" asp-for="Valor">
+                        <span asp-validation-for="ValorPago" class="text-danger"></span>
+                    </div>
+                </div>
                 <div class="form-group">
                     <div class="col-md-offset-2 col-md-8">
                         <button class="btn btn-success">Salvar</button>

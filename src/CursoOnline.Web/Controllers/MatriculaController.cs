@@ -4,6 +4,7 @@ using CursoOnline.Dominio.Matriculas;
 using CursoOnline.Dominio._Base;
 using CursoOnline.Web.Util;
 using Microsoft.AspNetCore.Mvc;
+using CursoOnline.Dominio.Alunos;
 
 namespace CursoOnline.Web.Controllers
 {
@@ -11,11 +12,19 @@ namespace CursoOnline.Web.Controllers
     {
         private readonly CriacaoDaMatricula _criacaoDaMatricula;
         private readonly IRepositorio<Matricula> _matriculaRepositorio;
+        private readonly IRepositorio<Aluno> _alunoRepositorio;
+        private readonly IRepositorio<Curso> _cursoRepositorio;
 
-        public MatriculaController(CriacaoDaMatricula criacaoDaMatricula, IRepositorio<Matricula> matriculaRepositorio)
+        public MatriculaController(
+            CriacaoDaMatricula criacaoDaMatricula, 
+            IRepositorio<Matricula> matriculaRepositorio,
+            IRepositorio<Aluno> alunoRepositorio,
+            IRepositorio<Curso> cursoRepositorio)
         {
             _criacaoDaMatricula = criacaoDaMatricula;
             _matriculaRepositorio = matriculaRepositorio;
+            _alunoRepositorio = alunoRepositorio;
+            _cursoRepositorio = cursoRepositorio;
         }
 
         public IActionResult Index()
@@ -39,7 +48,24 @@ namespace CursoOnline.Web.Controllers
 
         public IActionResult Novo()
         {
+            InicializarAlunosECursosNaViewBag();
+
             return View("Nova", new MatriculaDto());
+        }
+
+        private void InicializarAlunosECursosNaViewBag()
+        {
+            var alunos = _alunoRepositorio.Consultar();
+            if (alunos != null && alunos.Any())
+                alunos = alunos.OrderBy(a => a.Nome).ToList();
+
+            ViewBag.Alunos = alunos;
+
+            var cursos = _cursoRepositorio.Consultar();
+            if (cursos != null && cursos.Any())
+                cursos = cursos.OrderBy(c => c.Nome).ToList();
+
+            ViewBag.Cursos = cursos;
         }
 
         [HttpPost]
