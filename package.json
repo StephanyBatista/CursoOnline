@@ -11,7 +11,7 @@
     "migration": "cd ./src/CursoOnline.Dados/ && dotnet ef --startup-project ../CursoOnline.Web/CursoOnline.Web.csproj migrations add",
     "migration-script": "cd ./src/CursoOnline.Dados/ && dotnet ef --startup-project ../CursoOnline.Web/CursoOnline.Web.csproj migrations script",
     "remove-migration": "cd ./src/CursoOnline.Dados/ && dotnet ef --startup-project ../CursoOnline.Web/CursoOnline.Web.csproj migrations remove",
-    "database-update": "cd ./src/CursoOnline.Dados/ && dotnet ef --startup-project ../CursoOnline.Web/CursoOnline.Web.csproj database update"
+    "update-database": "cd ./src/CursoOnline.Dados/ && dotnet ef --startup-project ../CursoOnline.Web/CursoOnline.Web.csproj database update"
   },
   "repository": {
     "type": "git",

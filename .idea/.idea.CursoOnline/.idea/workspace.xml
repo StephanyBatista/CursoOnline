@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="578f8899-2a2a-45a1-a428-1103109a580a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CursoOnline/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CursoOnline/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CursoOnline/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CursoOnline/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CursoOnline.Web/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoOnline.Web/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CursoOnline.Dados/Contextos/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoOnline.Dados/Contextos/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CursoOnline.Dados/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoOnline.Dados/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CursoOnline.Dominio/Matriculas/CriacaoDaMatricula.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoOnline.Dominio/Matriculas/CriacaoDaMatricula.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CursoOnline.Dominio/Matriculas/Matricula.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoOnline.Dominio/Matriculas/Matricula.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CursoOnline.Ioc/StartupIoc.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoOnline.Ioc/StartupIoc.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CursoOnline.Web/Controllers/CursoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoOnline.Web/Controllers/CursoController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CursoOnline.Web/Controllers/MatriculaController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoOnline.Web/Controllers/MatriculaController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CursoOnline.Web/Views/Matricula/Nova.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoOnline.Web/Views/Matricula/Nova.cshtml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,11 +37,96 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="appsettings.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="appsettings.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CursoOnline.Web/appsettings.json">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Nova.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CursoOnline.Web/Views/Matricula/Nova.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+              <folding>
+                <marker date="1530977991178" expanded="true" signature="51:89" ph="@..." />
+                <marker date="1530977991178" expanded="true" signature="91:2190" ph="&lt;div.../&gt;" />
+                <marker date="1530977991178" expanded="true" signature="119:251" ph="&lt;div.../&gt;" />
+                <marker date="1530977991178" expanded="true" signature="145:240" ph="&lt;div.../&gt;" />
+                <marker date="1530977991178" expanded="true" signature="256:369" ph="&lt;div.../&gt;" />
+                <marker date="1530977991178" expanded="true" signature="289:358" ph="&lt;div.../&gt;" />
+                <marker date="1530977991178" expanded="true" signature="374:2179" ph="&lt;div.../&gt;" />
+                <marker date="1530977991178" expanded="true" signature="413:1554" ph="&lt;div.../&gt;" />
+                <marker date="1530977991178" expanded="true" signature="449:1531" ph="&lt;form.../&gt;" />
+                <marker date="1530977991178" expanded="true" signature="708:1111" ph="&lt;div.../&gt;" />
+                <marker date="1530977991178" expanded="true" signature="825:1088" ph="&lt;div.../&gt;" />
+                <marker date="1530977991178" expanded="true" signature="873:1061" ph="&lt;select.../&gt;" />
+                <marker date="1530977991178" expanded="true" signature="1128:1531" ph="&lt;div.../&gt;" />
+                <marker date="1530977991178" expanded="true" signature="1245:1508" ph="&lt;div.../&gt;" />
+                <marker date="1530977991178" expanded="true" signature="1293:1481" ph="&lt;select.../&gt;" />
+                <marker date="1530977991178" expanded="true" signature="1571:1922" ph="&lt;div.../&gt;" />
+                <marker date="1530977991178" expanded="true" signature="1688:1899" ph="&lt;div.../&gt;" />
+                <marker date="1530977991178" expanded="true" signature="1939:2144" ph="&lt;div.../&gt;" />
+                <marker date="1530977991178" expanded="true" signature="1984:2121" ph="&lt;div.../&gt;" />
+                <marker date="1530977991178" expanded="true" signature="2199:2452" ph="@{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CriacaoDaMatricula.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CursoOnline.Dominio/Matriculas/CriacaoDaMatricula.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <marker date="1531061463469" expanded="false" signature="6:100" ph="..." />
+                <marker date="1531061463469" expanded="true" signature="142:1342" ph="{...}" />
+                <marker date="1531061463469" expanded="true" signature="180:1340" ph="{...}" />
+                <marker date="1531061463469" expanded="true" signature="573:751" ph="{...}" />
+                <marker date="1531061463469" expanded="true" signature="805:1334" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Matricula.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CursoOnline.Dominio/Matriculas/Matricula.cs">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+              <folding>
+                <marker date="1531060491468" expanded="true" signature="6:100" ph="..." />
+                <marker date="1531060491468" expanded="true" signature="142:1974" ph="{...}" />
+                <marker date="1531060491468" expanded="true" signature="182:1972" ph="{...}" />
+                <marker date="1531060491468" expanded="true" signature="661:1357" ph="{...}" />
+                <marker date="1531060491468" expanded="true" signature="1411:1742" ph="{...}" />
+                <marker date="1531060491468" expanded="true" signature="1774:1966" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MatriculaController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CursoOnline.Web/Controllers/MatriculaController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+              <folding>
+                <marker date="1531061357894" expanded="true" signature="6:217" ph="..." />
+                <marker date="1531061357894" expanded="true" signature="256:2574" ph="{...}" />
+                <marker date="1531061357894" expanded="true" signature="308:2572" ph="{...}" />
+                <marker date="1531061357894" expanded="true" signature="825:1057" ph="{...}" />
+                <marker date="1531061357894" expanded="true" signature="1095:1750" ph="{...}" />
+                <marker date="1531061357894" expanded="true" signature="1204:1642" ph="{...}" />
+                <marker date="1531061357894" expanded="true" signature="1339:1525" ph="{...}" />
+                <marker date="1531061357894" expanded="true" signature="1787:1910" ph="{...}" />
+                <marker date="1531061357894" expanded="true" signature="1968:2399" ph="{...}" />
+                <marker date="1531061357894" expanded="true" signature="2475:2566" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,14 +137,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/CursoOnline.Dominio/Matriculas/MatriculaParaListagemDto.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/CursoOnline.Dominio/Cursos/Curso.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/CursoOnline.Web/Views/Matricula/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/CursoOnline.Web/Views/Matricula/Nova.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/CursoOnline.Web/Views/Matricula/Nova.cshtml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/CursoOnline.Dominio/Matriculas/Matricula.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/CursoOnline.Dominio/Matriculas/MatriculaDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/CursoOnline.Dominio/Matriculas/MatriculaParaListagemDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/CursoOnline.Dominio/Matriculas/CriacaoDaMatricula.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/CursoOnline.Dominio/Cursos/Curso.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/CursoOnline.Web/Controllers/MatriculaController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/test/CursoOnline.DominioTest/Cursos/CursoTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/CursoOnline.Dados/Contextos/ApplicationDbContext.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -60,12 +156,13 @@
         <option value="$PROJECT_DIR$/test/CursoOnline.DominioTest/CursoOnline.DominioTest.csproj" />
         <option value="$PROJECT_DIR$/src/CursoOnline.Dominio/CursoOnline.Dominio.csproj" />
         <option value="$PROJECT_DIR$/src/CursoOnline.Web/Views/Matricula/Index.cshtml" />
-        <option value="$PROJECT_DIR$/src/CursoOnline.Web/Views/Matricula/Nova.cshtml" />
         <option value="$PROJECT_DIR$/src/CursoOnline.Web/Controllers/MatriculaController.cs" />
         <option value="$PROJECT_DIR$/src/CursoOnline.Web/CursoOnline.Web.csproj" />
         <option value="$PROJECT_DIR$/src/CursoOnline.Ioc/CursoOnline.Ioc.csproj" />
         <option value="$PROJECT_DIR$/src/CursoOnline.Dados/CursoOnline.Dados.csproj" />
         <option value="$PROJECT_DIR$/src/CursoOnline.Web/appsettings.json" />
+        <option value="$PROJECT_DIR$/src/CursoOnline.Web/Views/Matricula/Nova.cshtml" />
+        <option value="$PROJECT_DIR$/src/CursoOnline.Dominio/Matriculas/Matricula.cs" />
       </list>
     </option>
   </component>
@@ -80,7 +177,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="45" />
     <option name="y" value="32" />
     <option name="width" value="2515" />
@@ -94,19 +191,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="CursoOnline (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-file-system" value="false" />
-        <option name="show-all-items" value="false" />
-      </pane>
       <pane id="Scratches">
         <subPane>
           <expand>
@@ -117,6 +201,37 @@
           </expand>
           <select />
         </subPane>
+      </pane>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="CursoOnline (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="CursoOnline (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="CursoOnline.Web" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="CursoOnline (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="CursoOnline.Web" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="CursoOnline (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="CursoOnline.Web" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Matricula" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
       </pane>
     </panes>
   </component>
@@ -138,18 +253,23 @@
   </component>
   <component name="RunManager">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/src/CursoOnline.Web/bin/Debug/netcoreapp2.1/CursoOnline.Web.dll" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/CursoOnline.Web" />
       <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:53695/" />
+      </envs>
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
-      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/src/CursoOnline.Web/CursoOnline.Web.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="None" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
+      <browser start="true" url="http://localhost:53695/" />
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -165,11 +285,13 @@
       <workItem from="1530534869445" duration="2816000" />
       <workItem from="1530574645708" duration="4975000" />
       <workItem from="1530749213639" duration="1862000" />
+      <workItem from="1530977787487" duration="320000" />
+      <workItem from="1531060230478" duration="1350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9653000" />
+    <option name="totallyTimeSpent" value="11323000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -181,7 +303,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="34" width="2560" height="1046" extended-state="7" />
+    <frame x="0" y="0" width="2560" height="1015" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -194,11 +316,12 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.50857145" />
       <window_info anchor="bottom" id="NuGet" order="7" weight="0.6" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2352" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23916534" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32914287" />
       <window_info anchor="right" id="Database" order="3" weight="0.3299389" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39855942" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -206,7 +329,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32914287" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
@@ -217,7 +339,82 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/src/CursoOnline.Dominio/Matriculas/CriacaoDaMatricula.cs</url>
+          <line>24</line>
+          <properties documentPath="$PROJECT_DIR$/src/CursoOnline.Dominio/Matriculas/CriacaoDaMatricula.cs" initialLine="22">
+            <startOffsets>
+              <startOffset value="828" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="891" />
+            </endOffsets>
+          </properties>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/src/CursoOnline.Web/Controllers/MatriculaController.cs</url>
+          <line>31</line>
+          <properties documentPath="$PROJECT_DIR$/src/CursoOnline.Web/Controllers/MatriculaController.cs" initialLine="31">
+            <startOffsets>
+              <startOffset value="1118" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="1169" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/CursoOnline.Web/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CursoOnline.Web/Views/Matricula/Nova.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="56" lean-forward="true" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+          <folding>
+            <marker date="1530977991178" expanded="true" signature="51:89" ph="@..." />
+            <marker date="1530977991178" expanded="true" signature="91:2190" ph="&lt;div.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="119:251" ph="&lt;div.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="145:240" ph="&lt;div.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="256:369" ph="&lt;div.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="289:358" ph="&lt;div.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="374:2179" ph="&lt;div.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="413:1554" ph="&lt;div.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="449:1531" ph="&lt;form.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="708:1111" ph="&lt;div.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="825:1088" ph="&lt;div.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="873:1061" ph="&lt;select.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="1128:1531" ph="&lt;div.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="1245:1508" ph="&lt;div.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="1293:1481" ph="&lt;select.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="1571:1922" ph="&lt;div.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="1688:1899" ph="&lt;div.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="1939:2144" ph="&lt;div.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="1984:2121" ph="&lt;div.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="2199:2452" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CursoOnline.Web/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CursoOnline.Web/appsettings.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -295,13 +492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CursoOnline.Dominio/Matriculas/CriacaoDaMatricula.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CursoOnline.Dominio/Matriculas/MatriculaParaListagemDto.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -344,20 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CursoOnline.Web/Views/Matricula/Nova.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CursoOnline.Web/Controllers/MatriculaController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CursoOnline.Web/appsettings.Development.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -388,8 +564,85 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CursoOnline.Web/appsettings.json">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CursoOnline.Web/Views/Matricula/Nova.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <marker date="1530977991178" expanded="true" signature="51:89" ph="@..." />
+            <marker date="1530977991178" expanded="true" signature="91:2190" ph="&lt;div.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="119:251" ph="&lt;div.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="145:240" ph="&lt;div.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="256:369" ph="&lt;div.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="289:358" ph="&lt;div.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="374:2179" ph="&lt;div.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="413:1554" ph="&lt;div.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="449:1531" ph="&lt;form.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="708:1111" ph="&lt;div.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="825:1088" ph="&lt;div.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="873:1061" ph="&lt;select.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="1128:1531" ph="&lt;div.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="1245:1508" ph="&lt;div.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="1293:1481" ph="&lt;select.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="1571:1922" ph="&lt;div.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="1688:1899" ph="&lt;div.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="1939:2144" ph="&lt;div.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="1984:2121" ph="&lt;div.../&gt;" />
+            <marker date="1530977991178" expanded="true" signature="2199:2452" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CursoOnline.Dominio/Matriculas/CriacaoDaMatricula.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <marker date="1531061463469" expanded="false" signature="6:100" ph="..." />
+            <marker date="1531061463469" expanded="true" signature="142:1342" ph="{...}" />
+            <marker date="1531061463469" expanded="true" signature="180:1340" ph="{...}" />
+            <marker date="1531061463469" expanded="true" signature="573:751" ph="{...}" />
+            <marker date="1531061463469" expanded="true" signature="805:1334" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CursoOnline.Web/Controllers/MatriculaController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding>
+            <marker date="1531061357894" expanded="true" signature="6:217" ph="..." />
+            <marker date="1531061357894" expanded="true" signature="256:2574" ph="{...}" />
+            <marker date="1531061357894" expanded="true" signature="308:2572" ph="{...}" />
+            <marker date="1531061357894" expanded="true" signature="825:1057" ph="{...}" />
+            <marker date="1531061357894" expanded="true" signature="1095:1750" ph="{...}" />
+            <marker date="1531061357894" expanded="true" signature="1204:1642" ph="{...}" />
+            <marker date="1531061357894" expanded="true" signature="1339:1525" ph="{...}" />
+            <marker date="1531061357894" expanded="true" signature="1787:1910" ph="{...}" />
+            <marker date="1531061357894" expanded="true" signature="1968:2399" ph="{...}" />
+            <marker date="1531061357894" expanded="true" signature="2475:2566" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CursoOnline.Dominio/Matriculas/Matricula.cs">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding>
+            <marker date="1531060491468" expanded="true" signature="6:100" ph="..." />
+            <marker date="1531060491468" expanded="true" signature="142:1974" ph="{...}" />
+            <marker date="1531060491468" expanded="true" signature="182:1972" ph="{...}" />
+            <marker date="1531060491468" expanded="true" signature="661:1357" ph="{...}" />
+            <marker date="1531060491468" expanded="true" signature="1411:1742" ph="{...}" />
+            <marker date="1531060491468" expanded="true" signature="1774:1966" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -8,10 +8,12 @@ namespace CursoOnline.Dominio.Matriculas
     {
         private readonly IAlunoRepositorio _alunoRepositorio;
         private readonly ICursoRepositorio _cursoRepositorio;
-        private readonly IMatriculaRepositorio _matriculaRepositorio;
+        private readonly IRepositorio<Matricula> _matriculaRepositorio;
 
-        public CriacaoDaMatricula(IAlunoRepositorio alunoRepositorio, ICursoRepositorio cursoRepositorio,
-            IMatriculaRepositorio matriculaRepositorio)
+        public CriacaoDaMatricula(
+            IAlunoRepositorio alunoRepositorio, 
+            ICursoRepositorio cursoRepositorio,
+            IRepositorio<Matricula> matriculaRepositorio)
         {
             _alunoRepositorio = alunoRepositorio;
             _cursoRepositorio = cursoRepositorio;

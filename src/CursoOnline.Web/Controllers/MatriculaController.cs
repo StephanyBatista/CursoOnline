@@ -10,21 +10,21 @@ namespace CursoOnline.Web.Controllers
 {
     public class MatriculaController : Controller
     {
-        private readonly CriacaoDaMatricula _criacaoDaMatricula;
-        private readonly IRepositorio<Matricula> _matriculaRepositorio;
+        private readonly IMatriculaRepositorio _matriculaRepositorio;
         private readonly IRepositorio<Aluno> _alunoRepositorio;
         private readonly IRepositorio<Curso> _cursoRepositorio;
+        private CriacaoDaMatricula CriacaoDaMatricula;
 
         public MatriculaController(
-            CriacaoDaMatricula criacaoDaMatricula, 
-            IRepositorio<Matricula> matriculaRepositorio,
+            IMatriculaRepositorio matriculaRepositorio,
             IRepositorio<Aluno> alunoRepositorio,
-            IRepositorio<Curso> cursoRepositorio)
+            IRepositorio<Curso> cursoRepositorio,
+            CriacaoDaMatricula criacaoDaMatricula)
         {
-            _criacaoDaMatricula = criacaoDaMatricula;
             _matriculaRepositorio = matriculaRepositorio;
             _alunoRepositorio = alunoRepositorio;
             _cursoRepositorio = cursoRepositorio;
+            CriacaoDaMatricula = criacaoDaMatricula;
         }
 
         public IActionResult Index()
@@ -46,7 +46,7 @@ namespace CursoOnline.Web.Controllers
             return View("Index", PaginatedList<MatriculaParaListagemDto>.Create(null, Request));
         }
 
-        public IActionResult Novo()
+        public IActionResult Nova()
         {
             InicializarAlunosECursosNaViewBag();
 
@@ -71,8 +71,7 @@ namespace CursoOnline.Web.Controllers
         [HttpPost]
         public IActionResult Salvar(MatriculaDto model)
         {
-            _criacaoDaMatricula.Criar(model);
-
+            CriacaoDaMatricula.Criar(model);
             return Ok();
         }
     }

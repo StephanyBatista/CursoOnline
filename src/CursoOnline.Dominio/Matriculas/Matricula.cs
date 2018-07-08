@@ -14,6 +14,8 @@ namespace CursoOnline.Dominio.Matriculas
         public bool CursoConcluido { get; private set; }
         public bool Cancelada { get; private set; }
 
+        private Matricula() {}
+
         public Matricula(Aluno aluno, Curso curso, double valorPago)
         {
             ValidadorDeRegra.Novo()
@@ -21,7 +23,7 @@ namespace CursoOnline.Dominio.Matriculas
                 .Quando(curso == null, Resource.CursoInvalido)
                 .Quando(valorPago < 1, Resource.ValorInvalido)
                 .Quando(curso != null && valorPago > curso.Valor, Resource.ValorPagoMaiorQueValorDoCurso)
-                .Quando(aluno != null && curso != null && aluno.PublicoAlvo != curso.PublicoAlvo, Resource.PublicosAlvoDiferentes)
+                .Quando(aluno != null && curso != null && aluno.PublicoAlvo.GetHashCode() != curso.PublicoAlvo.GetHashCode(), Resource.PublicosAlvoDiferentes)
                 .DispararExcecaoSeExistir();
 
             Aluno = aluno;
