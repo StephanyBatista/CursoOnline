@@ -27,6 +27,7 @@
         <e p="Repositorios" t="Include">
           <e p="AlunoRepositorio.cs" t="Include" />
           <e p="CursoRepositorio.cs" t="Include" />
+          <e p="MatriculaRepositorio.cs" t="Include" />
           <e p="RepositorioBase.cs" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
