@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/StephanyBatista/CursoOnline/issues"
   },
-  "homepage": "https://github.com/StephanyBatista/CursoOnline#readme"
+  "homepage": "https://github.com/StephanyBatista/CursoOnline#readme",
+  "devDependencies": {
+    "jasmine": "^3.1.0"
+  }
 }
