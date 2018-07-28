@@ -6050,11 +6050,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/stephany/Documents/Source/CursoOnline/test/CursoOnline.DominioTest/CursoOnline.DominioTest.csproj",
+      "projectUniqueName": "/home/stephany/Documents/Sources/CursoOnline/test/CursoOnline.DominioTest/CursoOnline.DominioTest.csproj",
       "projectName": "CursoOnline.DominioTest",
-      "projectPath": "/home/stephany/Documents/Source/CursoOnline/test/CursoOnline.DominioTest/CursoOnline.DominioTest.csproj",
+      "projectPath": "/home/stephany/Documents/Sources/CursoOnline/test/CursoOnline.DominioTest/CursoOnline.DominioTest.csproj",
       "packagesPath": "/home/stephany/.nuget/packages/",
-      "outputPath": "/home/stephany/Documents/Source/CursoOnline/test/CursoOnline.DominioTest/obj/",
+      "outputPath": "/home/stephany/Documents/Sources/CursoOnline/test/CursoOnline.DominioTest/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -6071,8 +6071,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "/home/stephany/Documents/Source/CursoOnline/src/CursoOnline.Dominio/CursoOnline.Dominio.csproj": {
-              "projectPath": "/home/stephany/Documents/Source/CursoOnline/src/CursoOnline.Dominio/CursoOnline.Dominio.csproj"
+            "/home/stephany/Documents/Sources/CursoOnline/src/CursoOnline.Dominio/CursoOnline.Dominio.csproj": {
+              "projectPath": "/home/stephany/Documents/Sources/CursoOnline/src/CursoOnline.Dominio/CursoOnline.Dominio.csproj"
             }
           }
         }
