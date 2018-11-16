@@ -1769,12 +1769,10 @@
   },
   "libraries": {
     "Bogus/22.0.2": {
-      "sha512": "99HIJ4CkQIkH1K/6k97lHiujRlbzPSHytasLY6wRcuqL0dRonQfoK2GwPvm+nIUP5GiFiN43cwGxTcH2ZUa0nw==",
+      "sha512": "N0oeJ4wlT+OwS1IgZ3UXdJqoOiXKEmdXKZ+uiQC3uEAVTYG1hkxIXYMQxRu0nMxbSc/TZQKNhFFB8RHAffmu8w==",
       "type": "package",
       "path": "bogus/22.0.2",
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "bogus.22.0.2.nupkg.sha512",
         "bogus.nuspec",
         "lib/net40/Bogus.dll",
@@ -1786,12 +1784,10 @@
       ]
     },
     "Castle.Core/4.2.1": {
-      "sha512": "tLlM4XU+aj0n8TdkiHHmV/48GpTuFEPQimFjHTZGD9XTWRCSLQcnB6rOftqaUSCXeBSbmWWEGeLPTLG3siTrcw==",
+      "sha512": "XSNA0Gc1Zu33L+8+/3Tqt+aFu8QWS8UenVHZ7RenIP5wJfhoLrA4PnNscpxReeo5aBq8PDoGnV8rNaOzIOUo/w==",
       "type": "package",
       "path": "castle.core/4.2.1",
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "ASL - Apache Software Foundation License.txt",
         "CHANGELOG.md",
         "LICENSE",
@@ -1820,11 +1816,10 @@
       ]
     },
     "Microsoft.CodeCoverage/15.8.0-preview-20180610-02": {
-      "sha512": "QemoHB9aQfmErljWsCkedYTWFvOE2Oa6v+NOvZ+6FIYIC/oTIDqU9nOzf+IP6Crg5QQMjD1gSDyFP5zMPZQW8Q==",
+      "sha512": "WcbMcPfE84SpSLj9AjXcykMabf+jHFiJJemZdBC/BuPSdweSEZkDraGkcM44zkUIEVo+I06YDydhOJ9qqLlUjw==",
       "type": "package",
       "path": "microsoft.codecoverage/15.8.0-preview-20180610-02",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "build/netstandard1.0/CodeCoverage/CodeCoverage.config",
         "build/netstandard1.0/CodeCoverage/CodeCoverage.exe",
@@ -1937,11 +1932,10 @@
       ]
     },
     "Microsoft.NET.Test.Sdk/15.8.0-preview-20180610-02": {
-      "sha512": "ixjrRAw12d9qfOEjRtFYtY2maMbhYiNp8roglFXaKDl5KVRnwWn2Ip9KFl1EJfKXQsWwCiht78gFTCcT+esyPQ==",
+      "sha512": "texDeimMTKNj44Gdps6pWLe010Psc95iQREmVh9atWeGoJxWo+TT1uLf5+YPlF3ySSDhIV7qgxHb/7AoxlhMRg==",
       "type": "package",
       "path": "microsoft.net.test.sdk/15.8.0-preview-20180610-02",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "build/net45/Microsoft.Net.Test.Sdk.props",
         "build/net45/Microsoft.Net.Test.Sdk.targets",
@@ -2258,11 +2252,10 @@
       ]
     },
     "Microsoft.NETCore.Platforms/2.1.0": {
-      "sha512": "aSTPL94NloSiQVL5Len8wbjFKOnoAX/vOh3s3DF6g3c7GUUMLCDvnBhmA72M2iN2AedyA8hpr7m89kzSAKUnJQ==",
+      "sha512": "TT+QCi9LcxGTjBssH7S7n5+8DVcwfG4DYgXX7Dk7+BfZ4oVHj8Q0CbYk9glzAlHLsSt3bYzol+fOdra2iu6GOw==",
       "type": "package",
       "path": "microsoft.netcore.platforms/2.1.0",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -2291,11 +2284,10 @@
       ]
     },
     "Microsoft.TestPlatform.ObjectModel/15.8.0-preview-20180610-02": {
-      "sha512": "yAxks+gS5MDWNhHwpMMyv2ohmANF0jxlVDqQVH63jmldAbJMTmULGiiLfAw1m95MBu9aos/GoptkhSIE2HHVzA==",
+      "sha512": "lqovnZuz4CjcjijBNs2KYKTpqNyd0D+pE7ZvVb5Q6RtQaR1aSGPh/iLxpyVxrck11nAqM3Cope16yOERe9G7lA==",
       "type": "package",
       "path": "microsoft.testplatform.objectmodel/15.8.0-preview-20180610-02",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net451/Microsoft.TestPlatform.CoreUtilities.dll",
         "lib/net451/Microsoft.TestPlatform.PlatformAbstractions.dll",
@@ -2363,11 +2355,10 @@
       ]
     },
     "Microsoft.TestPlatform.TestHost/15.8.0-preview-20180610-02": {
-      "sha512": "QUeA85oeGVea/hCFlG/paHYmoaA+VrBJYCZMfrjCx9DJpVJtGUWgWMwVxHhSN/jpjE8GnO7kfpFZo6b6vYN4tw==",
+      "sha512": "gUWRQxGy9/R+CZnsfRfxkBY45bh0/2XD7VYogYNACnkP/MKGfsebzXisJ22WowQ3EBQME5YhRMx76xr8oHi23A==",
       "type": "package",
       "path": "microsoft.testplatform.testhost/15.8.0-preview-20180610-02",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "build/uap10.0/Microsoft.TestPlatform.TestHost.props",
@@ -2573,12 +2564,10 @@
       ]
     },
     "Moq/4.8.2": {
-      "sha512": "PEFxGJyA/3Fsd0J/PjThsBYfKQnwGawyNXLMjuZOejBmCMudEYYosFFQKeMYaWu0vW+009hgMhEMXDnax2T0Uw==",
+      "sha512": "Lz+cW0Qo8BlmT7DqMPzd6s7jpqYpxJ41T4f2wzbJ4bKUEdfTEfz1wD1/Q2Kh6DY4+qoqVwFa4JIhBq13j5RyOQ==",
       "type": "package",
       "path": "moq/4.8.2",
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "lib/net45/Moq.dll",
         "lib/net45/Moq.pdb",
         "lib/net45/Moq.xml",
@@ -5907,22 +5896,20 @@
       ]
     },
     "xunit/2.4.0-rc.1.build4038": {
-      "sha512": "hoxQVkHOZTY84brwPzBhyjFzUARPjAScM8dXMa0Lp+81ilpTQ4UODav35bghB2A/ZAslYmpZiCcWDWscMLmcYw==",
+      "sha512": "xbVyM9MZwCqRmPJA5el+zrwFKZLVE1yBBVpnvjisOVrgUqd/GDldKqX+QiFAjyvA8wGQL/yc5BC302yHJo5sSg==",
       "type": "package",
       "path": "xunit/2.4.0-rc.1.build4038",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "xunit.2.4.0-rc.1.build4038.nupkg.sha512",
         "xunit.nuspec"
       ]
     },
     "xunit.abstractions/2.0.2-rc.1": {
-      "sha512": "R6eVGCNUIlIWQDx7VfN1Oj63hGnNmJo9YCYi4P/bNgs+Xw03kcuSMOuhwmMcWFk8SstoAlziufoqNwlZwh5Zvw==",
+      "sha512": "EHg7LkyR8tO/gH7XUBnnoXOohWYx9TK2t7x8SfSdu8Finc0KkHwRnzFoOA0AsB+pBEBh01PYjKMbKKtcspDOtg==",
       "type": "package",
       "path": "xunit.abstractions/2.0.2-rc.1",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net35/xunit.abstractions.dll",
         "lib/net35/xunit.abstractions.xml",
@@ -5935,13 +5922,10 @@
       ]
     },
     "xunit.analyzers/0.9.0": {
-      "sha512": "q2DNeE2EhmnJJkhBW2bca1NtfezjBhB9cRDWtihUlz4ywObGRlBXNT/olFcKl0XuCOdFm1nWAkCm9dQIluk5UA==",
+      "sha512": "DjJv7Yr8QJC+E3VFmGkJTQ+A6b863/HfSQhc5lIxqlzjG4IGmWzHvXcUFrIeSfYEAZIRR3hSH/NI5hZA5lqXFQ==",
       "type": "package",
       "path": "xunit.analyzers/0.9.0",
-      "hasTools": true,
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "analyzers/dotnet/cs/xunit.analyzers.dll",
         "tools/install.ps1",
         "tools/uninstall.ps1",
@@ -5950,11 +5934,10 @@
       ]
     },
     "xunit.assert/2.4.0-rc.1.build4038": {
-      "sha512": "WX6CLYe8VZB/je4ITL243NyFriDpOPZd2OuM656ECPyb92DCtanBNG2g04HeP1jrVn+kdyG/OOkfDt68L8m5Xg==",
+      "sha512": "Z2FGIrkp70/eLbLB9ywafzXM7X/BkVtwmV1qfVBLmRmNSYC1wj5Sup8ZVEqG3ebmsxVCZuIKIpID4i3KoPP5nw==",
       "type": "package",
       "path": "xunit.assert/2.4.0-rc.1.build4038",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard1.1/xunit.assert.dll",
         "lib/netstandard1.1/xunit.assert.xml",
@@ -5965,11 +5948,10 @@
       ]
     },
     "xunit.core/2.4.0-rc.1.build4038": {
-      "sha512": "xALqnCC4Z+VAr/xDHG+YpOgijfO57LpwooYNWvpR3J6hpuRTot+J0FytlAadd+RQMa6j5nMQV7rh7I5/+gG4Mg==",
+      "sha512": "HoiqB8LCsiHsbljVYQGEVRwvnBUa+ZmBGZ+DXNlZnCczGi2AHOhFHr57Q4bWxnNiqS6v/H40z+97owdGssk4YA==",
       "type": "package",
       "path": "xunit.core/2.4.0-rc.1.build4038",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "build/xunit.core.props",
         "build/xunit.core.targets",
@@ -5980,11 +5962,10 @@
       ]
     },
     "xunit.extensibility.core/2.4.0-rc.1.build4038": {
-      "sha512": "7iI79tKxnNp4gaKDGTJk6irfxgjoGwHFeGwRJDv2obJ/tNhS42ALv8gbxBtTb7D8ezbdsmulzFz7KJiGypfEXA==",
+      "sha512": "JaSGKCQ0xJ/ZJFxmnQtHPPFdQOZk/NT5qbsoiaiutUp9j8+4m1+1kq1+2QMa8emBar+ppwXQ7lkvdJen+c/KVg==",
       "type": "package",
       "path": "xunit.extensibility.core/2.4.0-rc.1.build4038",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net452/xunit.core.dll",
         "lib/net452/xunit.core.dll.tdnet",
@@ -6000,11 +5981,10 @@
       ]
     },
     "xunit.extensibility.execution/2.4.0-rc.1.build4038": {
-      "sha512": "0Fut6rrqjk7QKoB9UmmjDxCRTSlNweI1YFNFBS5CSKJHlckTtlP7j6lmZGnatqPl34g5MjEsbDpZXT+pEPCtZg==",
+      "sha512": "D5bNjmEbhvxbsey/Dk1v8lGav2s4FnNWRmyvnyDbx3JGqacAVfxG2gnTPT3dAqmjrkBG4/e/8kI4zCW04RxR2Q==",
       "type": "package",
       "path": "xunit.extensibility.execution/2.4.0-rc.1.build4038",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net452/xunit.execution.desktop.dll",
         "lib/net452/xunit.execution.desktop.xml",
@@ -6017,11 +5997,10 @@
       ]
     },
     "xunit.runner.visualstudio/2.4.0-rc.1.build4038": {
-      "sha512": "Tu630BNHZqNF8rLDiEYyte3bvfJYGrMfvRuRhVAUWLNl3w+JakkVtpl65RkK2jKsQwf6AGsVMK3DCrMFgFhV2Q==",
+      "sha512": "al2haiLfzfvv6I1fBmrRTcLzUv/a/6gheWIYtq0EGoyCB4hliJvesgCe2qJ5EPFbFB+PZTP41kM7qvF+0H0/xA==",
       "type": "package",
       "path": "xunit.runner.visualstudio/2.4.0-rc.1.build4038",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "build/_common/xunit.abstractions.dll",
         "build/_common/xunit.runner.reporters.net452.dll",
@@ -6065,35 +6044,37 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\steph\\.nuget\\packages\\": {},
+    "C:\\Users\\henriquebatista\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Source\\CursoOnline\\test\\CursoOnline.DominioTest\\CursoOnline.DominioTest.csproj",
+      "projectUniqueName": "C:\\Source\\CursoOnline\\test\\CursoOnline.DominioTest\\CursoOnline.DominioTest.csproj",
       "projectName": "CursoOnline.DominioTest",
-      "projectPath": "c:\\Source\\CursoOnline\\test\\CursoOnline.DominioTest\\CursoOnline.DominioTest.csproj",
-      "packagesPath": "C:\\Users\\steph\\.nuget\\packages\\",
-      "outputPath": "c:\\Source\\CursoOnline\\test\\CursoOnline.DominioTest\\obj\\",
+      "projectPath": "C:\\Source\\CursoOnline\\test\\CursoOnline.DominioTest\\CursoOnline.DominioTest.csproj",
+      "packagesPath": "C:\\Users\\henriquebatista\\.nuget\\packages\\",
+      "outputPath": "C:\\Source\\CursoOnline\\test\\CursoOnline.DominioTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\steph\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\henriquebatista\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "c:\\Source\\CursoOnline\\src\\CursoOnline.Dominio\\CursoOnline.Dominio.csproj": {
-              "projectPath": "c:\\Source\\CursoOnline\\src\\CursoOnline.Dominio\\CursoOnline.Dominio.csproj"
+            "C:\\Source\\CursoOnline\\src\\CursoOnline.Dominio\\CursoOnline.Dominio.csproj": {
+              "projectPath": "C:\\Source\\CursoOnline\\src\\CursoOnline.Dominio\\CursoOnline.Dominio.csproj"
             }
           }
         }
