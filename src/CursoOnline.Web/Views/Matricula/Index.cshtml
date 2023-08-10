@@ -1,0 +1,67 @@
+﻿@using CursoOnline.Dominio.Matriculas
+@using CursoOnline.Web.Util
+@model CursoOnline.Web.Util.PaginatedList<MatriculaParaListagemDto>
+@{
+    ViewData["Title"] = "Cursos";
+}
+
+<div id="pad-wrapper">
+
+    <div class="row">
+        <div class="col-md-12">
+            <a href="/Matricula/Nova" class="btn btn-primary">Novo</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Carga Horária</th>
+                        <th>Publico Alvo</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @item.NomeDoAluno
+                            </td>
+                            <td>
+                                @item.NomeDoCurso
+                            </td>
+                            <td>
+                                @item.Valor
+                            </td>
+                            <td>
+                                <a href="/Curso/Editar/@item.Id" class="btn">Editar</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            @{
+                var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+                var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+            }
+
+            <a asp-action="Index"
+               asp-route-page="@(Model.PageIndex - 1)"
+               class="btn btn-default @prevDisabled">
+                Anterior
+            </a>
+            <a asp-action="Index"
+               asp-route-page="@(Model.PageIndex + 1)"
+               class="btn btn-default @nextDisabled">
+                Próximo
+            </a>
+        </div>
+    </div>
+</div>
+
+
+

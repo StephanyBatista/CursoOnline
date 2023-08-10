@@ -1,0 +1,76 @@
+﻿@model CursoOnline.Dominio.Alunos.AlunoDto
+@{
+    ViewData["Title"] = "Aluno";
+}
+
+<div id="pad-wrapper">
+
+    <div class="row">
+        <div class="col-md-12">
+            <a href="/Aluno" class="btn">Voltar</a>
+        </div>
+    </div>
+    <div class="row header">
+        <div class="col-md-1">
+            <h3>Alunos</h3>
+        </div>
+    </div>
+    <div class="row form-wrapper">
+        <div class="col-md-12">
+            <form id="form" class="form-horizontal" asp-action="Salvar" asp-controller="Aluno" asp-anti-forgery
+                  data-ajax="true" data-ajax-method="POST" data-ajax-failure="formQuandoFalha" data-ajax-success="window.location = '/Aluno'">
+                <input type="hidden" class="form-control" asp-for="Id">
+                <div class="form-group">
+                    <label class="col-md-2 control-label">Nome</label>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" asp-for="Nome">
+                        <span asp-validation-for="Nome" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">CPF</label>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" asp-for="Cpf">
+                        <span asp-validation-for="Cpf" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">E-mail</label>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" asp-for="Email">
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">Publico</label>
+                    <div class="col-md-2">
+                        <select class="form-control" asp-for="PublicoAlvo">
+                            <option value="Estudante">Estudante</option>
+                            <option value="Universitário">Universitário</option>
+                            <option value="Empregado">Empregado</option>
+                            <option value="Empreendedor">Empreendedor</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-8">
+                        <button class="btn btn-success">Salvar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="/js/jquery.validate.min.js"></script>
+    <script src="/js/jquery.validate.unobtrusive.js"></script>
+    <script src="/js/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="/js/excecaoDeDominio.js"></script>
+}
+
+
+
+
+
+

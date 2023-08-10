@@ -1,4 +1,5 @@
-﻿using CursoOnline.Dominio._Base;
+﻿using CursoOnline.Dominio.PublicosAlvo;
+using CursoOnline.Dominio._Base;
 
 namespace CursoOnline.Dominio.Cursos
 {
@@ -30,7 +31,7 @@ namespace CursoOnline.Dominio.Cursos
         public void AlterarNome(string nome)
         {
             ValidadorDeRegra.Novo()
-                .Quando(string.IsNullOrEmpty(nome), Resource.ValorInvalido)
+                .Quando(string.IsNullOrEmpty(nome), Resource.NomeInvalido)
                 .DispararExcecaoSeExistir();
 
             Nome = nome;

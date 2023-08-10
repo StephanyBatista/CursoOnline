@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using CursoOnline.Dominio.Cursos;
 using CursoOnline.Dominio._Base;
 using CursoOnline.Web.Util;
@@ -62,7 +61,6 @@ namespace CursoOnline.Web.Controllers
         public IActionResult Salvar(CursoDto model)
         {
             _armazenadorDeCurso.Armazenar(model);
-
             return Ok();
         }
     }

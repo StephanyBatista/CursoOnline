@@ -1,0 +1,67 @@
+﻿@model CursoOnline.Dominio.Matriculas.MatriculaDto
+@{
+    ViewData["Title"] = "Cursos";
+}
+
+<div id="pad-wrapper">
+
+    <div class="row">
+        <div class="col-md-12">
+            <a href="/Matriculas" class="btn">Voltar</a>
+        </div>
+    </div>
+    <div class="row header">
+        <div class="col-md-1">
+            <h3>Matriculas</h3>
+        </div>
+    </div>
+    <div class="row form-wrapper">
+        <div class="col-md-12">
+            <form id="form" class="form-horizontal" asp-action="Salvar" asp-controller="Matricula" asp-anti-forgery
+                  data-ajax="true" data-ajax-method="POST" data-ajax-failure="formQuandoFalha" data-ajax-success="window.location = '/Matricula'">
+                <div class="form-group">
+                    <label class="col-md-2 control-label">Aluno</label>
+                    <div class="col-md-10">
+                        <select class="form-control" asp-for="AlunoId" asp-items="@(new SelectList(@ViewBag.Alunos, "Id", "Nome"))">
+                            <option></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">Curso</label>
+                    <div class="col-md-10">
+                        <select class="form-control" asp-for="CursoId" asp-items="@(new SelectList(@ViewBag.Cursos, "Id", "Nome"))">
+                            <option></option>
+                        </select>
+                    </div>
+                </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">Valor</label>
+                    <div class="col-md-2">
+                        <input class="form-control" asp-for="ValorPago">
+                        <span asp-validation-for="ValorPago" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-8">
+                        <button class="btn btn-success">Salvar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="/js/jquery.validate.min.js"></script>
+    <script src="/js/jquery.validate.unobtrusive.js"></script>
+    <script src="/js/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="/js/excecaoDeDominio.js"></script>
+}
+
+
+
+
+
+
